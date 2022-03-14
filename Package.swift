@@ -6,11 +6,11 @@ let package = Package(
     products: [
         .library(
             name: "ElkycDocumentTools",
-            targets: ["ElkycDocumentTools"]),
+            targets: ["RegulaCommon"]),
     ],
     targets: [
         .binaryTarget(
-            name: "ElkycDocumentTools",
+            name: "RegulaCommon",
             url: "https://pods.regulaforensics.com/RegulaCommon/6.2.110/RegulaCommon-6.2.110.zip",
             checksum: "7fa3526a3a5bcff0ecdd6947b9b05b88c0163b0c2df47c9bb4903d25307fa4fc")
     ]
